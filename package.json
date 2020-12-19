@@ -1,6 +1,6 @@
 {
   "name": "redux-example",
-  "home": "http://guptaamiteshitm.github.io/shopping",
+  "homepage": "https://guptaamiteshitm.github.io/shopping",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

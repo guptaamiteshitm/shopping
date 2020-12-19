@@ -26,7 +26,7 @@ function App({ current }) {
           <Route exact path="/" component={Products} />
           <Route exact path="/cart" component={Cart} />
           {!current ? (
-            <Redirect to="/" />
+            <Redirect to="/login" />
           ) : (
               <Route exact path="/product/:id" component={SingleItem} />
             )}
