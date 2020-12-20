@@ -47,7 +47,7 @@ export default class Login extends Component {
                                         </div>
                                         <div className="form-group">
                                             <label htmlFor="password" className="text-info">Password:</label><br />
-                                            <input type="text" name="password" id="password" className="form-control" value={this.state.password} onChange={this.onchange} defaultValue='123' />
+                                            <input type="password" name="password" id="password" className="form-control" value={this.state.password} onChange={this.onchange} defaultValue='123' />
                                         </div>
                                         <div className="form-group">
                                             <input type="submit" name="submit" className="btn btn-info btn-md" defaultValue="submit" />
